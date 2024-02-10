@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { LoginForm } from "../components/LoginForm"
+import { RegisterForm } from "../components/RegisterForm"
 
 
 export const AuthPage = ({setUserState}) => {
@@ -8,6 +9,7 @@ export const AuthPage = ({setUserState}) => {
       <h1>Auth Page</h1>
 
       <LoginForm setUserState={setUserState}/>
+      <RegisterForm />
     </div>
   )
 }
